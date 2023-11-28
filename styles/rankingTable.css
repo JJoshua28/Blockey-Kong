@@ -1,0 +1,29 @@
+
+.rankingTable {
+    font-size: 20px;
+    height: auto;
+    margin:auto;
+    width: 97%;
+}
+
+#rankingTable {
+    border: #37AE0F 15px double;
+    padding: 1%;
+    border-radius: 50px;
+}
+
+.tableItem {
+    border-right: #37AE0F 15px double;
+    border-bottom: #37AE0F 15px double;
+
+}
+
+.rankingTable thead tr th {
+    font-size: 25px;
+    border-bottom: #37AE0F 5px solid;
+}
+
+.rankingTable thead tr th, .rankingTable tbody tr td {
+    padding-bottom: 4%;
+
+}

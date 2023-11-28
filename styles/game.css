@@ -1,0 +1,136 @@
+body {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #0C141F;
+	overflow: hidden;
+}
+
+a {
+    color: #37AE0F;
+}
+
+.text_default {
+	font-family: 'Anton', sans-serif;
+	font-size: 20vw;
+}
+
+.text_title {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 40vw;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#viewport_container {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+#losetext {
+    display: none;
+}
+#wintext {
+    display: none;
+}
+
+#marioColour {
+    display: inline-block;
+    width:100%;
+}
+
+#start {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#pauseButton {
+    position: absolute;
+    left: 10%;
+    top: 1%;
+    width: 3%;
+    height: 4%;
+    display: none;
+    justify-content: space-between;
+}
+
+.pause {
+    background-color: #D3D3D3;
+    width: 40%;
+}
+
+.gameState {
+    width: 49%;
+}
+
+#white {
+    background-color: white;
+    color: black; 
+    border: 3px solid black;
+}
+
+#yellow {
+    background-color: rgb(255, 255, 0);
+    color: black; 
+}
+
+#red {
+    background-color: red;
+    color: white; 
+}
+
+#viewport_container {
+    background-color: #87ceeb;
+}
+
+#nameFieldContainer {
+    margin-top: 10px;
+}
+
+#nameField {
+    font-size: 15px;
+    width: auto;
+    height: 45px;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>Blockey Kong</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Shade&display=swap" rel="stylesheet">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/addons/p5.sound.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.1/matter.min.js" integrity="sha512-zkr6K5aibGz5uIkC28VJQrfg/YDadqtqZPzXiBhUHUSGGqGzmEvK70f+yjV/qCRT21Zsqnc0ABGt5GUakGh16g==" crossorigin="anonymous"></script>
+
+		<link type="text/css" rel="stylesheet" href="../styles/game.css">
+ 
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+			</header>	
+			<div id="viewport_container">
+				<!-- game viewport goes here-->
+				<div id="pauseButton">
+					<div class="pause"></div>
+					<div class="pause"></div>
+				</div>
+				<div class="menuOption">Play</div>	
+				<div id="menu" class="card">
+					<div class="card-header"><strong>Menu</strong></div>
+					<h2 id="gameHeading">Blockey Kong!</h2>
+					<div id="marioColour"> Block Colour:
+						<br>
+						<button id= "yellow" class="btn blockColour" onclick="marioColour(event)">Yellow</button>
+						<button id= "white" class="btn blockColour" onclick="marioColour(event)">White</button>
+						<button id= "red" class="btn blockColour" onclick="marioColour(event)">Red</button>
+					</div>
+					<div id= "nameFieldContainer">
+						<input id="nameField" placeholder="Name"/>
+					</div>		
+					<div id= "buttonMenu">
+						<br>
+					   <button id="start" class="btn" onclick="start()">Start</button>
+					</div>   
+				</div>	
+			</div>
+			<div class="controller">
+			</div>
+		</div>
+		
+		<script type="application/javascript" src="../scripts/winTitle.js"> </script>
+		<script type="application/javascript" src="../scripts//masterClass.js"></script>
+		<script type="application/javascript" src="../scripts//script.js"></script>
+		<script type="application/javascript" src="../scripts//keyFunctionality.js"></script>
+		<script type="application/javascript" src="../scripts//platforms.js"></script>
+		<script type="application/javascript" src="../scripts//balls.js"> </script>
+		<script type="application/javascript" src="../scripts//character.js"></script>
+		<script type="application/javascript" src="../scripts//ladder.js"></script>
+		<script type="application/javascript" src="../scripts//barrier.js"></script>
+		<script type="application/javascript" src="../scripts//menuManipulation.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: arcade;
+    src: url(./PressStart2P-Regular.ttf);
+}
+
+body {
+    background-color: #0C141F;
+    font-size: 45px;
+    font-family: arcade;
+    color: #37AE0F;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: #37AE0F;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    height: 12%;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+#gameHeadingConatiner {
+    display: flex;
+    align-content: flex-start;
+    width:  90%;
+    text-align: center;
+    border-bottom: #37AE0F 10px double;
+    line-height: 50%;
+}
+
+#gameHeading {
+    width: 98%;
+    position: relative;
+    left: 2%;
+    flex-shrink: 3;
+}
+
+#gameWindow {
+    display:flex;
+    width: 50%;
+    height: 97%;
+    border-radius: 50px;
+    margin: auto;
+    border: #37AE0F 15px double;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.menuOption {
+    position: absolute;
+    border: #37AE0F 15px double;
+    background-color: #0C141F;
+    font-size: 45px;
+    text-align: center;
+    line-height: 200%;
+    border-radius: 50px;
+    width: 40%;
+    height: 10%;
+    left: 29%;
+    margin: auto;
+}
+
+.menuOption1 {
+    top: 20%;
+}
+
+.menuOption2 {
+    top: 40%;
+}
+
+.menuOption3 {
+    top: 60%;
+}
+
+.menuOption4 {
+    top: 80%;
+}
+@media only screen and (min-width: 1375px) and (max-width: 1550px) {
+
+    #gameHeading {
+        position: absolute;
+        top: -30%;
+        line-height: 110%;
+    }
+}    
+@media only screen and (min-width: 945px) and (max-width: 1375px) {
+   #gameHeadingContainer {
+       position: absolute;
+       top: -10%;
+   }
+   header {
+       position: absolute;
+       top: 1%;
+       height: 20%;
+   }
+   #gameHeading {
+    position: absolute;
+    top: -10%;
+    line-height: 110%;
+   }
+   .menuOption1 {
+    top: 23%;
+   }
+
+   .menuOption2 {
+    top: 42%;
+   }
+
+   .menuOption3 {
+       top: 62%;
+   }
+
+   .menuOption4 {
+       top: 82%;
+   }
+}
+
+@media only screen and (max-width: 945px) {
+    body {
+        font-size: 40px;
+    }
+    #gameHeadingContainer {
+        position: absolute;
+        top: -10%;
+    }
+    header {
+        position: absolute;
+        top: 3%;
+        height: 15%;
+    }
+    #gameHeading {
+     position: absolute;
+     top: -30%;
+     line-height: 110%;
+    }
+    .menuOption {
+        font-size: 30px;
+    }
+}     
+ 
